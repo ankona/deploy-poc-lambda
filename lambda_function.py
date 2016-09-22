@@ -6,7 +6,7 @@ logger.setLevel(logging.INFO)
 logger.info('Loading deploy-poc-lambda.')
 
 def lambda_handler(event, context):
-    return {"Version": 1}
+    return {"Version": "feature 1g"}
 
 
 if __name__ == "__main__":
